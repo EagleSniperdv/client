@@ -61,12 +61,30 @@
     return (
         <div className={styles.container}>
             <div className={styles.body}>
+
                 <div className={styles.line}>
                 <div onMouseEnter={() => {manageMouseEnter()}} onMouseMove={(e) => {manageMouseMove(e)}} onMouseLeave={() => {manageMouseLeave()}} className={styles.box}></div>
                 <svg>
                     <path ref={path}></path>
                 </svg>
                 </div>
+
+
+                <div className={styles.description}>
+                    <p>Smart Development</p>
+                    <p>Combining unique design and rich technology, we build digital products exactly as they were designed, without shortcuts or simplifications.</p>
+                </div>
+                <div className={styles.tagsContainer}>
+                    <p>Areas</p>
+                <div className={styles.tags}>
+                    <p>E-commerce</p>
+                    <p>Finance</p>
+                    <p>Education</p>
+                    <p>Social</p>
+                    <p>Entertainment</p>
+                    <p>Medicine</p>
+                </div>
+            </div>
 
                 
             </div>
